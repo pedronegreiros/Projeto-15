@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #00ff00;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+    margin: 20px 0;
+  }
+  
+  /* Container do Formulário e Lista de Contatos */
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Formulário */
+  #formulario {
+    background: #000000;
+    padding: 20px 10%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  #formulario div {
+    margin-bottom: 15px;
+  }
+  
+  #formulario label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #formulario input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  #formulario button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #formulario button:hover {
+    background-color: #218838;
+  }
+  
+  /* Lista de Contatos */
+  #todos_os_contatos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #000000;
+    padding: 20px 4%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(21, 255, 0, 0.1);
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+    position:relative;
+  }
+  
+  .card h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: #636262;
+  }
+  
+  .card button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  .card .btn-editar {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .card .btn-editar:hover {
+    background-color: #0056b3;
+  }
+  
+  .card .btn-excluir {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .card .btn-excluir:hover {
+    background-color: #c82333;
+  }
+
+
+
+
